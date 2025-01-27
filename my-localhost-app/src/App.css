@@ -1,0 +1,100 @@
+/* Body and general styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Container for both pages */
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Header styling for both pages */
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 0 0 30px;
+  color: #555;
+}
+
+/* Styling for the Google login button */
+.google-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.google-button:hover {
+  background-color: #357ae8;
+}
+
+/* Styling for the HomePage (before sign-in) */
+.home-page .header {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.home-page .google-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+/* Styling for the DashboardPage (after sign-in) */
+.dashboard-page .header {
+  background-color: rgba(0, 255, 127, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-page h1 {
+  font-size: 2.8rem;
+  color: #008080;
+}
+
+.dashboard-page p {
+  font-size: 1.2rem;
+  color: #008080;
+}
+
+.dashboard-page a {
+  color: #ff7f50;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.dashboard-page a:hover {
+  color: #ff6347;
+}
